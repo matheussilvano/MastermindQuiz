@@ -1,0 +1,146 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    height: 80vh;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 40px;
+}
+
+#flags-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.flag {
+    width: 48px;
+    height: 36px;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ddd;
+}
+
+#title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+}
+
+#menu button {
+    margin: 15px;
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 250px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+#menu button:hover {
+    background-color: #A0522D;
+    transform: scale(1.05);
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button:hover {
+    background-color: #A0522D;
+}
+
+#answer-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#answer-buttons button {
+    margin: 10px 0;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    transition: background-color 0.3s;
+}
+
+#answer-buttons button:hover {
+    background-color: #A0522D;
+}
+
+#question-container {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#error-screen {
+    color: #ff0000;
+}
+
+#game-title {
+    font-size: 48px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+#capitais {
+    font-size: 32px;
+    color: #046f29;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}

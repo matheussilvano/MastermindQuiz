@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="flags-container"></div>
+        <h1 id="game-title">Master Quiz <span id="capitais">Capitais</span></h1>
+        <div id="menu">
+            <button id="start-button">Começar</button>
+            <button id="credits-button">Créditos</button>
+        </div>
+        <div id="quiz-container" style="display: none;">
+            <h2 id="question-container"></h2>
+            <div id="answer-buttons"></div>
+        </div>
+        <div id="error-screen" style="display: none;">
+            <h2>Você errou!</h2>
+            <button id="restart-button">Tentar Novamente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
